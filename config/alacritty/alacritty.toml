@@ -1,0 +1,13 @@
+[cursor]
+style = "beam"
+
+[window]
+padding = { x = 10, y = 10 }
+
+[font]
+normal = { family = "SF Mono" }
+size = 14
+
+[general]
+import = ["/home/felipe/.config/alacritty/gruvbox-dark.toml"]
+

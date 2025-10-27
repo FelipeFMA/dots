@@ -1,38 +1,45 @@
 * {
-  font-family: "SF Pro";
-  font-size: 13px;
+    font-family:
+        "SF Mono",
+        monospace;
+    font-size: 15px;
 }
 
 window#waybar {
-  background-color: #1b1b1b;
-  color: #ffffff;
-  border-radius: 0px;
-  margin: 0;
-  border: none;
+    background-color: #282828;
+    color: #ebdbb2;
+    border-radius: 0px;
+    margin: 0;
+    border: none;
 }
 
 #workspaces {
-  margin: 0px 1px;
-  border: none;
+    margin: 0px 1px;
+    border: none;
 }
 
 #workspaces button {
-  color: #ffffff;
-  border-radius: 4px;
-  padding: 0 5px;
-  min-width: 20px;
-  min-height: 20px;
+    color: #ebdbb2;
+    background-color: #282828;
+    border-radius: 4px;
+    padding: 0 5px;
+    min-width: 20px;
+    min-height: 20px;
+    transition:
+        background-color 0.2s,
+        color 0.2s;
 }
 
 #workspaces button.active {
-  background-color: #ffffff;
-  color: #1b1b1b;
-  border-radius: 4px;
+    background-color: #ebdbb2;
+    color: #282828;
+    border-radius: 4px;
 }
 
 #workspaces button.urgent {
-  background-color: #fb4934;
-  border-radius: 4px;
+    background-color: #fb4934;
+    color: #282828;
+    border-radius: 4px;
 }
 
 #clock,
@@ -41,26 +48,28 @@ window#waybar {
 #battery,
 #network,
 #pulseaudio {
-  padding: 0 10px;
-  color: #ffffff;
+    padding: 0 10px;
+    color: #ebdbb2;
+    background-color: #282828;
+    border-radius: 4px;
 }
 
 #battery.charging {
-  color: #00bb13;
+    color: #b8bb26;
 }
 
 #battery.warning:not(.charging) {
-  color: #ffb300;
+    color: #fabd2f;
 }
 
 #battery.critical:not(.charging) {
-  color: #d11500;
+    color: #fb4934;
 }
 
 #network.disconnected {
-  color: #c10000;
+    color: #fb4934;
 }
 
 #pulseaudio.muted {
-  color: #a8a8a8;
+    color: #a89984;
 }
