@@ -4,7 +4,7 @@ CHOICE=$(echo -e "   Suspend\n   Shutdown\n   Reboot" | fuzzel --dmenu)
 
 case "$CHOICE" in
     "   Suspend")
-        systemctl suspend
+        hyprlock & sleep 1 & systemctl suspend
         ;;
     "   Shutdown")
         systemctl poweroff

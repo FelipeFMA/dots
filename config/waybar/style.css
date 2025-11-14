@@ -1,75 +1,98 @@
 * {
-    font-family:
-        "SF Mono",
-        monospace;
-    font-size: 15px;
+    all: unset;
+    font-family: SF Pro;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 window#waybar {
-    background-color: #282828;
-    color: #ebdbb2;
-    border-radius: 0px;
-    margin: 0;
-    border: none;
+    background-color: rgba(30, 30, 46, 0.65);
 }
 
-#workspaces {
-    margin: 0px 1px;
-    border: none;
-}
-
-#workspaces button {
-    color: #ebdbb2;
-    background-color: #282828;
-    border-radius: 4px;
-    padding: 0 5px;
-    min-width: 20px;
-    min-height: 20px;
-    transition:
-        background-color 0.2s,
-        color 0.2s;
-}
-
-#workspaces button.active {
-    background-color: #ebdbb2;
-    color: #282828;
-    border-radius: 4px;
-}
-
-#workspaces button.urgent {
-    background-color: #fb4934;
-    color: #282828;
-    border-radius: 4px;
+tooltip label {
+    color: #cdd6f4;
+    background-color: rgba(30, 30, 46, 1);
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 3px;
 }
 
 #clock,
-#bluetooth,
+#window,
+#workspaces button,
 #tray,
+#language,
+#custom-micro,
+#custom-date,
+#custom-mako,
+#custom-cava,
+#custom-music,
+#backlight,
 #battery,
+#disk,
 #network,
+#custom-swaync,
+#custom-powermenu,
 #pulseaudio {
-    padding: 0 10px;
-    color: #ebdbb2;
-    background-color: #282828;
-    border-radius: 4px;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 3px;
+    font-size: 15px;
+    background-color: #181825;
+    color: #cdd6f4;
 }
 
-#battery.charging {
-    color: #b8bb26;
+#clock {
+    color: #1e1e2e;
+    background-color: #cba6f7;
 }
 
-#battery.warning:not(.charging) {
-    color: #fabd2f;
+#network {
+    color: #1e1e2e;
+    background-color: #89b4fa;
 }
 
-#battery.critical:not(.charging) {
-    color: #fb4934;
+#battery.bat1 {
+    color: #1e1e2e;
+    background-color: #f9e2af;
 }
 
-#network.disconnected {
-    color: #fb4934;
+#pulseaudio {
+    color: #1e1e2e;
+    background-color: #a6e3a1;
 }
 
-#pulseaudio.muted {
-    color: #a89984;
+#custom-powermenu {
+    color: #1e1e2e;
+    background-color: #f38ba8;
+}
+
+#workspaces button:hover,
+#workspaces button.active {
+    background-color: #bac2de;
+    color: #1e1e2e;
+    border-radius: 7px;
+}
+#custom-date {
+    color: #1e1e2e;
+    background-color: #89b4fa;
+}
+
+#workspaces button {
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
 }
