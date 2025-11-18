@@ -63,7 +63,7 @@
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
     "format-linked": " {ifname} (No IP)",
     "format-disconnected": "  Disconnected",
-    "on-click": "alacritty -e nmtui",
+    "on-click": "",
     "max-length": 50,
   },
   "custom/logo": {
@@ -110,7 +110,7 @@
     "spacing": 10,
   },
   "clock": {
-    "format": "   {:%I:%M %p}",
+    "format": "   {:%I:%M %p}",
     "format-alt": "󰃭   {:%d/%m/%Y}",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
   },

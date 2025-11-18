@@ -96,3 +96,32 @@ tooltip label {
 #workspaces button.urgent {
     background-color: #eb4d4b;
 }
+
+/* Tray context menu */
+menu {
+    background-color: rgba(30, 30, 46, 1);
+    color: #cdd6f4;
+    border-radius: 7px;
+    padding: 6px;
+    margin: 3px;
+    border: 1px solid rgba(205, 214, 244, 0.12);
+}
+
+menu label {
+    color: #cdd6f4;
+}
+
+menu > menuitem {
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+menu > menuitem:hover {
+    background-color: #313244;
+}
+
+menu > separator {
+    background-color: rgba(205, 214, 244, 0.12);
+    min-height: 1px;
+    margin: 6px 4px;
+}
