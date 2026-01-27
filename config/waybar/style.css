@@ -8,12 +8,12 @@
 }
 
 window#waybar {
-    background-color: rgba(30, 30, 46, 0.65);
+    background-color: rgba(27, 27, 27, 1);
 }
 
 tooltip label {
-    color: #cdd6f4;
-    background-color: rgba(30, 30, 46, 1);
+    color: #ffffff;
+    background-color: rgba(27, 27, 27, 1);
     border-radius: 7px;
     padding-left: 15px;
     padding-right: 15px;
@@ -46,44 +46,44 @@ tooltip label {
     padding-bottom: 6px;
     margin: 3px;
     font-size: 15px;
-    background-color: #181825;
-    color: #cdd6f4;
+    background-color: #1b1b1b;
+    color: #ffffff;
 }
 
 #clock {
-    color: #1e1e2e;
-    background-color: #cba6f7;
+    color: #ffffff;
+    background-color: #1b1b1b;
 }
 
 #network {
-    color: #1e1e2e;
-    background-color: #89b4fa;
+    color: #ffffff;
+    background-color: #1b1b1b;
 }
 
 #battery.bat1 {
-    color: #1e1e2e;
-    background-color: #f9e2af;
+    color: #ffffff;
+    background-color: #1b1b1b;
 }
 
 #pulseaudio {
-    color: #1e1e2e;
-    background-color: #a6e3a1;
+    color: #ffffff;
+    background-color: #1b1b1b;
 }
 
 #custom-powermenu {
-    color: #1e1e2e;
-    background-color: #f38ba8;
+    color: #ffffff;
+    background-color: #1b1b1b;
 }
 
 #workspaces button:hover,
 #workspaces button.active {
-    background-color: #bac2de;
-    color: #1e1e2e;
+    background-color: #ffffff;
+    color: #1b1b1b;
     border-radius: 7px;
 }
 #custom-date {
-    color: #1e1e2e;
-    background-color: #89b4fa;
+    color: #ffffff;
+    background-color: #1b1b1b;
 }
 
 #workspaces button {
@@ -94,21 +94,21 @@ tooltip label {
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #1b1b1b;
 }
 
 /* Tray context menu */
 menu {
-    background-color: rgba(30, 30, 46, 1);
+    background-color: rgba(27, 27, 27, 1);
     color: #cdd6f4;
     border-radius: 7px;
     padding: 6px;
     margin: 3px;
-    border: 1px solid rgba(205, 214, 244, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 menu label {
-    color: #cdd6f4;
+    color: #ffffff;
 }
 
 menu > menuitem {
@@ -117,11 +117,11 @@ menu > menuitem {
 }
 
 menu > menuitem:hover {
-    background-color: #313244;
+    background-color: #1f1f1f;
 }
 
 menu > separator {
-    background-color: rgba(205, 214, 244, 0.12);
+    background-color: rgba(255, 255, 255, 0.12);
     min-height: 1px;
     margin: 6px 4px;
 }
