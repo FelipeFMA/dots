@@ -2,4 +2,5 @@ font=JetBrainsMono Nerd Font 10
 background-color=#1b1b1bff
 text-color=#ffffffFF
 border-color=#ffffffFF
+progress-color=#6b0700FF
 border-radius=10
