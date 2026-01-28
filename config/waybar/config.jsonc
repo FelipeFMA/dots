@@ -1,15 +1,18 @@
 {
-  "height": 48,
+  "height": 36,
   "layer": "top",
   "position": "top",
   "exclusive": true,
   "passthrough": false,
   "spacing": 5,
   "fixed-center": true,
-  "output": "eDP-1",
-
-  "modules-left": ["hyprland/workspaces", "tray"],
-  "modules-center": ["custom/music"],
+  "modules-left": [
+    "hyprland/workspaces",
+    "tray"
+  ],
+  "modules-center": [
+    "custom/music"
+  ],
   "modules-right": [
     "pulseaudio",
     "network",
@@ -17,7 +20,6 @@
     "clock",
     "custom/powermenu",
   ],
-
   "disk": {
     "interval": 30,
     "format": "󰋊 {used}",
@@ -27,7 +29,10 @@
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": ["", ""],
+    "format-icons": [
+      "",
+      ""
+    ],
   },
   "battery": {
     "interval": 60,
@@ -38,7 +43,13 @@
     "format": "{icon} {capacity}%",
     "format-alt": "{time}",
     "format-time": "{H}h {M}min",
-    "format-icons": ["", "", "", "", ""],
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "max-length": 25,
   },
   "battery#bat1": {
@@ -52,7 +63,13 @@
     "format-full": "{icon} {capacity}%",
     "format-charging": "  {capacity}%",
     "format-plugged": "  {capacity}%",
-    "format-icons": ["  ", "  ", "  ", "  ", "  "],
+    "format-icons": [
+      "  ",
+      "  ",
+      "  ",
+      "  ",
+      "  "
+    ],
     "tooltip-format": "{time}",
     "interval": 1,
     "on-click": "~/Documents/Github/Linuwu-Sense-PHN16-72/tools/linuwu_sense_gui.py -p",
@@ -63,7 +80,7 @@
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
     "format-linked": " {ifname} (No IP)",
     "format-disconnected": "  Disconnected",
-    "on-click": "",
+    "on-click": "foot -e sh -c 'sleep 0.01 && nmtui'",
     "max-length": 50,
   },
   "custom/logo": {
@@ -106,8 +123,8 @@
     "tooltip": false,
   },
   "tray": {
-    "icon-size": 21,
-    "spacing": 10,
+    "icon-size": 18,
+    "spacing": 9,
   },
   "clock": {
     "format": "   {:%I:%M %p}",
@@ -126,7 +143,11 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": [" ", " ", "  "],
+      "default": [
+        " ",
+        " ",
+        "  "
+      ],
     },
     "on-click": "pavucontrol",
     "on-click-right": "pavucontrol",

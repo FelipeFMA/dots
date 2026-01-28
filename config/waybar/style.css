@@ -3,8 +3,8 @@
     font-family: SF Pro;
     font-size: 12px;
     font-weight: bold;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 window#waybar {
@@ -15,10 +15,10 @@ tooltip label {
     color: #ffffff;
     background-color: rgba(27, 27, 27, 1);
     border-radius: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 3px;
 }
 
@@ -40,12 +40,12 @@ tooltip label {
 #custom-powermenu,
 #pulseaudio {
     border-radius: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 3px;
-    font-size: 15px;
+    font-size: 13px;
     background-color: #1b1b1b;
     color: #ffffff;
 }
@@ -87,10 +87,10 @@ tooltip label {
 }
 
 #workspaces button {
-    padding-top: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 6px;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
 }
 
 #workspaces button.urgent {
