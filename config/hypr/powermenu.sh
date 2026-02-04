@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CHOICE=$(echo -e "   Suspend\n   Shutdown\n   Reboot" | fuzzel --dmenu)
+CHOICE=$(echo -e "   Suspend\n   Shutdown\n   Reboot" | hyprlauncher --dmenu)
 
 case "$CHOICE" in
     "   Suspend")

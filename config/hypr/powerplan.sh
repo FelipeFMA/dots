@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CHOICE=$(echo -e "󰌪   Powersave\n   Performance" | fuzzel --dmenu)
+CHOICE=$(echo -e "󰌪   Powersave\n   Performance" | hyprlauncher --dmenu)
 
 case "$CHOICE" in
     "󰌪   Powersave")
