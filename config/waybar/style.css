@@ -1,6 +1,6 @@
 * {
     all: unset;
-    font-family: SF Pro;
+    font-family: "SF Pro", "JetBrainsMono Nerd Font Propo";
     font-size: 12px;
     font-weight: bold;
     margin-top: 0px;
@@ -8,13 +8,13 @@
 }
 
 window#waybar {
-    background-color: rgba(27, 27, 27, 1);
+    background-color: rgba(20, 20, 20, 0);
 }
 
 tooltip label {
     color: #ffffff;
     background-color: rgba(27, 27, 27, 1);
-    border-radius: 7px;
+    border-radius: 0;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 5px;
@@ -39,7 +39,7 @@ tooltip label {
 #custom-swaync,
 #custom-powermenu,
 #pulseaudio {
-    border-radius: 7px;
+    border-radius: 0;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 5px;
@@ -79,7 +79,7 @@ tooltip label {
 #workspaces button.active {
     background-color: #ffffff;
     color: #1b1b1b;
-    border-radius: 7px;
+    border-radius: 0;
 }
 #custom-date {
     color: #ffffff;
@@ -101,7 +101,7 @@ tooltip label {
 menu {
     background-color: rgba(27, 27, 27, 1);
     color: #cdd6f4;
-    border-radius: 7px;
+    border-radius: 0;
     padding: 6px;
     margin: 3px;
     border: 1px solid rgba(255, 255, 255, 0.12);
@@ -113,7 +113,7 @@ menu label {
 
 menu > menuitem {
     padding: 6px 12px;
-    border-radius: 5px;
+    border-radius: 0;
 }
 
 menu > menuitem:hover {

@@ -6,13 +6,8 @@
   "passthrough": false,
   "spacing": 5,
   "fixed-center": true,
-  "modules-left": [
-    "hyprland/workspaces",
-    "tray"
-  ],
-  "modules-center": [
-    "custom/music"
-  ],
+  "modules-left": ["hyprland/workspaces", "tray"],
+  "modules-center": ["custom/music"],
   "modules-right": [
     "pulseaudio",
     "network",
@@ -29,10 +24,7 @@
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon} {percent}%",
-    "format-icons": [
-      "",
-      ""
-    ],
+    "format-icons": ["", ""],
   },
   "battery": {
     "interval": 60,
@@ -43,13 +35,7 @@
     "format": "{icon} {capacity}%",
     "format-alt": "{time}",
     "format-time": "{H}h {M}min",
-    "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ],
+    "format-icons": ["", "", "", "", ""],
     "max-length": 25,
   },
   "battery#bat1": {
@@ -61,25 +47,19 @@
     },
     "format": "{icon} {capacity}%",
     "format-full": "{icon} {capacity}%",
-    "format-charging": "  {capacity}%",
-    "format-plugged": "  {capacity}%",
-    "format-icons": [
-      "  ",
-      "  ",
-      "  ",
-      "  ",
-      "  "
-    ],
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}",
     "interval": 1,
     "on-click": "~/Documents/Github/Linuwu-Sense-PHN16-72/tools/linuwu_sense_gui.py -p",
   },
   "network": {
-    "format-wifi": "   {essid} ({signalStrength}%)",
-    "format-ethernet": "󰈀  Connected",
+    "format-wifi": " {essid} ({signalStrength}%)",
+    "format-ethernet": "󰈀 Connected",
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
     "format-linked": " {ifname} (No IP)",
-    "format-disconnected": "  Disconnected",
+    "format-disconnected": " Disconnected",
     "on-click": "foot -e sh -c 'sleep 0.01 && nmtui'",
     "max-length": 50,
   },
@@ -119,7 +99,7 @@
   },
   "custom/date": {
     "format": "{}",
-    "exec": " date +'󰃭  %a %d %b' ",
+    "exec": " date +'󰃭 %a %d %b' ",
     "tooltip": false,
   },
   "tray": {
@@ -127,15 +107,15 @@
     "spacing": 9,
   },
   "clock": {
-    "format": "   {:%I:%M %p}",
-    "format-alt": "󰃭   {:%d/%m/%Y}",
+    "format": " {:%I:%M %p}",
+    "format-alt": "󰃭 {:%d/%m/%Y}",
     "tooltip-format": "<tt><small>{calendar}</small></tt>",
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-bluetooth": "{icon} {volume}%",
     "format-bluetooth-muted": " {icon}",
-    "format-muted": "󰝟  Muted",
+    "format-muted": "󰝟 Muted",
     "format-icons": {
       "headphone": "",
       "hands-free": "",
@@ -143,11 +123,7 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": [
-        " ",
-        " ",
-        "  "
-      ],
+      "default": ["", "", ""],
     },
     "on-click": "pavucontrol",
     "on-click-right": "pavucontrol",
